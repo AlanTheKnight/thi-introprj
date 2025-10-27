@@ -1,0 +1,180 @@
+{
+    "conversation": [
+        {
+            "text": "Hey! How’s it going?",
+            "in_response_to": null,
+            "persona": "user 1",
+            "conversation": "greetings",
+            "tags": [
+                "greeting",
+                "casual"
+            ]
+        },
+        {
+            "text": "I’m doing well, thanks! How about you?",
+            "in_response_to": "Hey! How’s it going?",
+            "persona": "user 2",
+            "conversation": "greetings",
+            "tags": [
+                "response",
+                "greeting"
+            ]
+        },
+        {
+            "text": "Not too bad, just keeping busy. What about you?",
+            "in_response_to": "I’m doing well, thanks! How about you?",
+            "persona": "user 1",
+            "conversation": "greetings",
+            "tags": [
+                "small_talk"
+            ]
+        },
+        {
+            "text": "Same here. Work’s been hectic lately!",
+            "in_response_to": "Not too bad, just keeping busy. What about you?",
+            "persona": "user 2",
+            "conversation": "greetings",
+            "tags": [
+                "small_talk"
+            ]
+        },
+        {
+            "text": "What do you usually do on weekends?",
+            "in_response_to": null,
+            "persona": "user 1",
+            "conversation": "small_talk_weekend",
+            "tags": [
+                "small_talk",
+                "question"
+            ]
+        },
+        {
+            "text": "I like to relax, maybe go hiking or watch a movie. How about you?",
+            "in_response_to": "What do you usually do on weekends?",
+            "persona": "user 2",
+            "conversation": "small_talk_weekend",
+            "tags": [
+                "small_talk",
+                "response"
+            ]
+        },
+        {
+            "text": "Do you mind if I ask you something?",
+            "in_response_to": null,
+            "persona": "user 1",
+            "conversation": "politeness_request",
+            "tags": [
+                "politeness",
+                "request"
+            ]
+        },
+        {
+            "text": "Not at all, go ahead!",
+            "in_response_to": "Do you mind if I ask you something?",
+            "persona": "user 2",
+            "conversation": "politeness_request",
+            "tags": [
+                "polite_response"
+            ]
+        },
+        {
+            "text": "That’s a good point.",
+            "in_response_to": null,
+            "persona": "user 1",
+            "conversation": "agreement",
+            "tags": [
+                "agreement",
+                "acknowledgment"
+            ]
+        },
+        {
+            "text": "Yeah, I totally agree with you on that.",
+            "in_response_to": "That’s a good point.",
+            "persona": "user 2",
+            "conversation": "agreement",
+            "tags": [
+                "agreement",
+                "supportive"
+            ]
+        },
+        {
+            "text": "I see what you mean, but I’m not sure I agree.",
+            "in_response_to": null,
+            "persona": "user 1",
+            "conversation": "disagreement",
+            "tags": [
+                "disagreement",
+                "polite"
+            ]
+        },
+        {
+            "text": "That’s fair. Everyone sees things differently.",
+            "in_response_to": "I see what you mean, but I’m not sure I agree.",
+            "persona": "user 2",
+            "conversation": "disagreement",
+            "tags": [
+                "acknowledgment",
+                "polite_response"
+            ]
+        },
+        {
+            "text": "Sorry, I didn’t catch that. Could you repeat it?",
+            "in_response_to": null,
+            "persona": "user 1",
+            "conversation": "clarification",
+            "tags": [
+                "clarification",
+                "request"
+            ]
+        },
+        {
+            "text": "Sure! I said that the meeting starts at 3 PM.",
+            "in_response_to": "Sorry, I didn’t catch that. Could you repeat it?",
+            "persona": "user 2",
+            "conversation": "clarification",
+            "tags": [
+                "clarification",
+                "response"
+            ]
+        },
+        {
+            "text": "Thanks for your help earlier!",
+            "in_response_to": null,
+            "persona": "user 1",
+            "conversation": "gratitude",
+            "tags": [
+                "gratitude",
+                "politeness"
+            ]
+        },
+        {
+            "text": "You’re welcome! Glad I could help.",
+            "in_response_to": "Thanks for your help earlier!",
+            "persona": "user 2",
+            "conversation": "gratitude",
+            "tags": [
+                "gratitude_response"
+            ]
+        },
+        {
+            "text": "Take care! Talk to you later.",
+            "in_response_to": null,
+            "persona": "user 1",
+            "conversation": "farewell",
+            "tags": [
+                "farewell",
+                "closing"
+            ]
+        },
+        {
+            "text": "See you later! Have a good one.",
+            "in_response_to": "Take care! Talk to you later.",
+            "persona": "user 2",
+            "conversation": "farewell",
+            "tags": [
+                "farewell_response",
+                "friendly"
+            ]
+        }
+    ]
+}

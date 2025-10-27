@@ -1,30 +1,29 @@
 <template>
-  <nav class="flex items-center space-x-4 lg:space-x-6">
+  <nav class="flex flex-row w-full items-center">
     <!-- Navigation links -->
-    <a href="/examples/dashboard" class="text-sm font-medium hover:text-primary">
-      Overview
-    </a>
-    <a href="/examples/dashboard" class="text-sm font-medium text-gray-400 hover:text-primary">
-      Customers
-    </a>
-    <a href="/examples/dashboard" class="text-sm font-medium text-gray-400 hover:text-primary">
-      Products
-    </a>
-    <a href="/examples/dashboard" class="text-sm font-medium text-gray-400 hover:text-primary">
-      Settings
-    </a>
-
-    <!-- Profile picture aligned to the right -->
-    <div class="ml-auto">
-      <img
-        :src="profilePic"
-        alt="User Profile"
-        class="w-10 h-10 rounded-full border-2 border-gray-300"
-      />
+    <div class="flex flex-1 space-x-4 lg:space-x-6">
+      <a href="/examples/dashboard" class="text-sm font-medium hover:text-primary"> Overview </a>
+      <a href="/examples/dashboard" class="text-sm font-medium text-gray-400 hover:text-primary">
+        Customers
+      </a>
+      <a href="/examples/dashboard" class="text-sm font-medium text-gray-400 hover:text-primary">
+        Products
+      </a>
+      <a href="/examples/dashboard" class="text-sm font-medium text-gray-400 hover:text-primary">
+        Settings
+      </a>
     </div>
+
+    <Avatar>
+      <AvatarImage :src="userImg" />
+      <AvatarFallback>CN</AvatarFallback>
+    </Avatar>
   </nav>
 </template>
 
 <script setup lang="ts">
-const profilePic = 'https://i.pravatar.cc/40' // placeholder avatar
+import Avatar from './components/ui/avatar/Avatar.vue'
+import AvatarImage from './components/ui/avatar/AvatarImage.vue'
+import AvatarFallback from './components/ui/avatar/AvatarFallback.vue'
+import userImg from '@/assets/user.svg'
 </script>

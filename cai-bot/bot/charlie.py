@@ -35,7 +35,7 @@ def init():
         }
     )
 
-    training_path = "../training"
+    training_path = "/app/training"
 
     json_files = glob.glob(os.path.join(training_path, "*.json"))
 

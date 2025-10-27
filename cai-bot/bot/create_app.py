@@ -20,9 +20,13 @@ def create_app():
         except Exception as e:
             return jsonify({"status": "error", "message": str(e)}), 500
 
-    @app.route("/chat")
+    @app.route("/api/chat", methods=["POST"])
     def chat():
-        question = request.args.get("question")
+        data = request.get_json()
+        if not data:
+            return jsonify({"error": "JSON body is required"}), 400
+        
+        question = data.get("message")
         if question:
             try:
                 answer = charlie.get_answer(question)
@@ -30,6 +34,6 @@ def create_app():
             except Exception as e:
                 return jsonify({"error": str(e)}), 500
         else:
-            return jsonify({"error": "question parameter is missing"}), 400
+            return jsonify({"error": "message field is missing"}), 400
 
     return app

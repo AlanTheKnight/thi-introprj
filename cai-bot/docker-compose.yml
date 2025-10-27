@@ -1,7 +1,7 @@
 services:
   nginx5:
     container_name: nginx5
-    build: 
+    build:
       context: ./web
       dockerfile: ./Dockerfile
     ports:
@@ -15,16 +15,20 @@ services:
   flask5:
     build:
       context: ./
-      dockerfile: ./Dockerfile
+      dockerfile: ./bot/Dockerfile
     container_name: flask5
-    command: gunicorn --bind 0.0.0.0:8000 --workers 2 "app.create_app:create_app()"
     ports:
       - "8005:8000"
-    volumes:
-      - ./:/app
     networks:
       my-network5:
         aliases:
           - flask-app5
+    environment:
+      - PYTHONPATH=/app
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
 networks:
   my-network5:

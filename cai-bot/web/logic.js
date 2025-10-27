@@ -17,7 +17,7 @@ function appendMessage(sender, styleClass, message) {
     chatLog.appendChild(messageElement);
 }
 
-const URL = 'http://10.10.240.11:5001/api/';
+const URL = 'http://localhost:8000/api/';
 
 function callCharServerAndStoreResponse(userMessage) {
     fetch(URL + 'chat?question=' + userMessage)

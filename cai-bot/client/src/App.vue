@@ -6,9 +6,7 @@ import { RouterView } from 'vue-router'
 
 <template>
   <div class="flex-1 h-full" id="app-container">
-    <div
-      class="flex flex-row h-16 items-center px-4 w-full border-grid sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60"
-    >
+    <div class="flex flex-row h-16 items-center px-4 w-full border-grid sticky top-0 z-50 bg-white">
       <img :src="logo" id="logo" />
 
       <MainNav class="mx-6" />

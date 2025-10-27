@@ -11,10 +11,11 @@
           We are a dedicated team of developers passionate about creating innovative AI solutions.
         </CardDescription>
         <ul class="list-disc list-inside space-y-2">
-          <li><strong>John Doe</strong></li>
-          <li><strong>Jane Smith</strong></li>
-          <li><strong>Bob Johnson</strong></li>
-          <li><strong>Alice Davis</strong></li>
+          <li><strong>Foreign De LeRegne</strong></li>
+          <li><strong>Henry Feucht</strong></li>
+          <li><strong>Shakik Masrafi</strong></li>
+          <li><strong>Rashad Huseynov</strong></li>
+          <li><strong>Maksim Gusev</strong></li>
         </ul>
       </CardContent>
     </Card>

@@ -1,29 +1,26 @@
 <script setup lang="ts">
-import MainNav from "./MainNav.vue"
-import logo from "@/assets/chat.png"
+import MainNav from './MainNav.vue'
+import logo from '@/assets/chat.png'
 import Chat from './Chat.vue'
 </script>
 
 <template>
   <div class="border-b">
-    <div class="flex h-16 items-center px-4">
+    <div class="flex flex-row h-16 items-center px-4 w-full">
+      <img :src="logo" id="logo" />
 
-      <img :src="logo" id="logo"/>
-     
       <MainNav class="mx-6" />
-      <div class="ml-auto flex items-center space-x-4">
-      
-      </div>
+
+      <div class="ml-auto flex items-center space-x-4"></div>
     </div>
   </div>
 
-  <Chat/>
+  <Chat />
 </template>
 
 <style scoped>
 #logo {
-  width: 40px;
-  height: 40px;
+  width: 35px;
+  height: 35px;
 }
 </style>
-

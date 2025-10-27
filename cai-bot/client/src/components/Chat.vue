@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { ref } from 'vue'
-import Button from './components/ui/button/Button.vue'
-import Textarea from './components/ui/textarea/Textarea.vue'
+import Button from '@/components/ui/button/Button.vue'
+import Textarea from '@/components/ui/textarea/Textarea.vue'
 
 interface Message {
   text: string

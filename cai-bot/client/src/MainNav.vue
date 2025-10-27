@@ -1,15 +1,11 @@
 <script setup lang="ts">
 import { cn } from '@/lib/utils'
+import { Button } from '@/components/ui/button'
 </script>
 
 <template>
-  <nav
-    :class="cn('flex items-center space-x-4 lg:space-x-6', $attrs.class ?? '')"
-  >
-    <a
-      href="/examples/dashboard"
-      class="text-sm font-medium transition-colors hover:text-primary"
-    >
+  <nav :class="cn('flex items-center space-x-4 lg:space-x-6', $attrs.class ?? '')">
+    <a href="/examples/dashboard" class="text-sm font-medium transition-colors hover:text-primary">
       Overview
     </a>
     <a
@@ -31,4 +27,6 @@ import { cn } from '@/lib/utils'
       Settings
     </a>
   </nav>
+
+  <Button variant="default">Primary</Button>
 </template>

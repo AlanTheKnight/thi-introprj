@@ -1,0 +1,20 @@
+[project]
+name = "bot"
+version = "1.0.0"
+description = "AI chatbot that answers THI-related questions"
+authors = [
+    {name = "Maksim Gusev",email = "maksim.gusev@adago.de"}
+]
+readme = "README.md"
+requires-python = ">=3.9,<3.14"
+dependencies = [
+    "chatterbot (>=1.2.8,<2.0.0)",
+    "flask (>=3.1.2,<4.0.0)",
+    "gunicorn (>=23.0.0,<24.0.0)",
+    "spacy (>=3.7.0,<4.0.0)",
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

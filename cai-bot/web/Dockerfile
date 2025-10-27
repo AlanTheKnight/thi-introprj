@@ -1,7 +1,15 @@
-FROM nginx:1.13-alpine
+FROM nginx:1.29-alpine
 
-WORKDIR /var/www/html
+# Copy custom nginx configuration
+COPY site.conf /etc/nginx/conf.d/default.conf
 
-COPY --chown=nginx:nginx . .
+WORKDIR /usr/share/nginx/html
 
+# Copy web files to nginx web root
+COPY --chown=nginx:nginx *.html *.css *.js ./
 
+# Expose port 80
+EXPOSE 80
+
+# Start nginx
+CMD ["nginx", "-g", "daemon off;"]

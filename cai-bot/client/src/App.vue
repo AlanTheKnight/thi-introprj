@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import MainNav from "./MainNav.vue"
 import logo from "@/assets/chat.png"
+import Chat from './Chat.vue'
 </script>
 
 <template>
@@ -15,6 +16,8 @@ import logo from "@/assets/chat.png"
       </div>
     </div>
   </div>
+
+  <Chat/>
 </template>
 
 <style scoped>
@@ -23,3 +26,4 @@ import logo from "@/assets/chat.png"
   height: 40px;
 }
 </style>
+

@@ -92,12 +92,10 @@ async function sendMessage() {
 </script>
 
 <template>
-  <div class="flex flex-1 flex-col h-[500px] w-full border overflow-hidden">
+  <div class="flex flex-1 flex-col h-[500px] w-full overflow-hidden">
     <!-- Header with clear button -->
-    <div
-      class="flex justify-between items-center p-3 border-b bg-white"
-    >
-      <h3 class="text-lg font-medium text-gray-700">Charlie Chatbot</h3>
+    <div class="flex justify-between items-center border-b p-3 bg-white dark:bg-slate-950">
+      <h3 class="text-lg font-medium">Charlie Chatbot</h3>
       <Button v-if="messages.length > 0" @click="clearMessages" variant="outline" size="sm">
         Clear Chat
       </Button>
@@ -113,7 +111,10 @@ async function sendMessage() {
         <div
           :class="[
             'inline-block px-4 py-2 rounded-lg max-w-xs',
-            msg.sender === 'user' ? 'bg-violet-500 text-white' : 'bg-white text-gray-800',
+            msg.sender === 'user'
+              ? 'bg-violet-500 text-white dark:bg-violet-800 dark:text-white'
+              : 'bg-white text-gray-800 dark:bg-slate-900 dark:text-gray-200',
+            msg.sender === 'user' ? 'message-user' : 'message-bot',
           ]"
         >
           {{ msg.text }}
@@ -122,8 +123,8 @@ async function sendMessage() {
     </div>
 
     <!-- Input area -->
-    <div class="flex justify-center p-5 border-t bg-white">
-      <div class="flex w-full max-w-lg items-end gap-3">
+    <div class="flex justify-center p-5 border-t bg-white dark:bg-slate-950">
+      <div class="flex w-full max-w-lg xl:max-w-3xl items-end gap-3">
         <Textarea
           v-model="inputMessage"
           @keyup.enter="sendMessage"
@@ -136,4 +137,12 @@ async function sendMessage() {
   </div>
 </template>
 
-<style scoped></style>
+<style scoped>
+.message-user {
+  border-bottom-right-radius: 0;
+}
+
+.message-bot {
+  border-bottom-left-radius: 0;
+}
+</style>

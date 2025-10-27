@@ -1,11 +1,25 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import MainNav from "./MainNav.vue"
+import logo from "@/assets/chat.png"
+</script>
 
 <template>
-  <h1>You did it!</h1>
-  <p>
-    Visit <a href="https://vuejs.org/" target="_blank" rel="noopener">vuejs.org</a> to read the
-    documentation
-  </p>
+  <div class="border-b">
+    <div class="flex h-16 items-center px-4">
+
+      <img :src="logo" id="logo"/>
+     
+      <MainNav class="mx-6" />
+      <div class="ml-auto flex items-center space-x-4">
+      
+      </div>
+    </div>
+  </div>
 </template>
 
-<style scoped></style>
+<style scoped>
+#logo {
+  width: 40px;
+  height: 40px;
+}
+</style>

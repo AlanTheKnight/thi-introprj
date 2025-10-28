@@ -175,6 +175,33 @@
                 "farewell_response",
                 "friendly"
             ]
+        },
+        {
+            "text": "What can I ask you?",
+            "in_response_to": null,
+            "persona": "user 1",
+            "conversation": "topics",
+            "tags": [
+                "question"
+            ]
+        },
+        {
+            "text": "What can you do?",
+            "in_response_to": null,
+            "persona": "user 1",
+            "conversation": "topics",
+            "tags": [
+                "question"
+            ]
+        },
+        {
+            "text": "You can ask me about topics like Artificial Intelligence (AI), Cyber Security, Big Data, Software Engineering (SWE), Data Structures and Algorithms (DSA), and Machine Learning.",
+            "in_response_to": "What can I ask you?",
+            "persona": "user 2",
+            "conversation": "topics",
+            "tags": [
+                "explanation"
+            ]
         }
     ]
 }

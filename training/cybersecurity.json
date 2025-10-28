@@ -64,6 +64,43 @@
             ]
         },
         {
+            "text": "What is hashing?",
+            "in_response_to": null,
+            "persona": "user 1",
+            "conversation": "crypto_basics",
+            "tags": [
+                "question"
+            ]
+        },
+        {
+            "text": "What is encryption?",
+            "in_response_to": null,
+            "persona": "user 1",
+            "conversation": "encryption_basics",
+            "tags": [
+                "question"
+            ]
+        },
+        {
+            "text": "Encryption is a two-way process that converts readable data (plaintext) into an unreadable format (ciphertext) using a key. It protects information by ensuring that only someone with the correct decryption key can access the original data.",
+            "in_response_to": "What is encryption?",
+            "persona": "user 2",
+            "conversation": "encryption_basics",
+            "tags": [
+                "explanation"
+            ]
+        },
+        {
+            "text": "Hashing is a one-way process that converts input data of any size into a fixed-length string of characters, called a hash. It’s mainly used for verifying data integrity and securely storing passwords, since hashes cannot be reversed to reveal the original data.",
+            "in_response_to": "What is hashing?",
+            "persona": "user 2",
+            "conversation": "crypto_basics",
+            "tags": [
+                "explanation"
+            ]
+        },
+
+        {
             "text": "Encryption is a two-way process that converts plaintext into ciphertext and back again using a key, used to protect data confidentiality. Hashing is a one-way process that generates a unique, fixed-size string (hash) from input data; it's primarily used to verify data integrity and for password storage.",
             "in_response_to": "What's the difference between encryption and hashing?",
             "persona": "user 2",

@@ -35,7 +35,8 @@
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "types": [
-      "node"
+      "node",
+      "vite/client"
     ]
   },
   "include": [
@@ -48,9 +49,6 @@
     "node_modules",
     "dist",
     "**/*.spec.ts",
-    "**/*.test.ts",
-    "src/main.ts",
-    "src/App.vue",
-    "src/assets/styles/index.css"
+    "**/*.test.ts"
   ]
 }

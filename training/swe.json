@@ -3,7 +3,25 @@
         {
             "text": "What is Software Engineering?",
             "in_response_to": null,
-            "persona": "user 1",
+            "persona": "user",
+            "conversation": "se_intro",
+            "tags": [
+                "definition"
+            ]
+        },
+        {
+            "text": "Define Software Engineering.",
+            "in_response_to": null,
+            "persona": "user",
+            "conversation": "se_intro",
+            "tags": [
+                "definition"
+            ]
+        },
+        {
+            "text": "Can you explain Software Engineering?",
+            "in_response_to": null,
+            "persona": "user",
             "conversation": "se_intro",
             "tags": [
                 "definition"
@@ -12,7 +30,7 @@
         {
             "text": "Software Engineering is the systematic application of engineering principles to the design, development, implementation, testing, and maintenance of software. It's a disciplined, quantifiable approach to building high-quality, reliable, and efficient software systems.",
             "in_response_to": "What is Software Engineering?",
-            "persona": "user 2",
+            "persona": "assistant",
             "conversation": "se_intro",
             "tags": [
                 "definition"
@@ -21,7 +39,25 @@
         {
             "text": "What is the Software Development Life Cycle (SDLC)?",
             "in_response_to": null,
-            "persona": "user 1",
+            "persona": "user",
+            "conversation": "se_process",
+            "tags": [
+                "question"
+            ]
+        },
+        {
+            "text": "Define SDLC.",
+            "in_response_to": null,
+            "persona": "user",
+            "conversation": "se_process",
+            "tags": [
+                "question"
+            ]
+        },
+        {
+            "text": "Explain the Software Development Life Cycle.",
+            "in_response_to": null,
+            "persona": "user",
             "conversation": "se_process",
             "tags": [
                 "question"
@@ -30,7 +66,7 @@
         {
             "text": "The Software Development Life Cycle (SDLC) is a structured process for building software that typically includes phases like Requirements Gathering, Design, Implementation, Testing, Deployment, and Maintenance. It provides a framework for delivering high-quality software.",
             "in_response_to": "What is the Software Development Life Cycle (SDLC)?",
-            "persona": "user 2",
+            "persona": "assistant",
             "conversation": "se_process",
             "tags": [
                 "definition"
@@ -38,8 +74,26 @@
         },
         {
             "text": "What are some common SDLC models?",
-            "in_response_to": "What is the Software Development Life Cycle (SDLC)?",
-            "persona": "user 1",
+            "in_response_to": null,
+            "persona": "user",
+            "conversation": "se_process",
+            "tags": [
+                "question"
+            ]
+        },
+        {
+            "text": "What are the different software development methodologies?",
+            "in_response_to": null,
+            "persona": "user",
+            "conversation": "se_process",
+            "tags": [
+                "question"
+            ]
+        },
+        {
+            "text": "List some SDLC models.",
+            "in_response_to": null,
+            "persona": "user",
             "conversation": "se_process",
             "tags": [
                 "question"
@@ -48,7 +102,7 @@
         {
             "text": "Common SDLC models include the Waterfall model (linear and sequential), Agile (iterative and incremental), Scrum (a specific Agile framework with sprints), and DevOps (which integrates development and operations for continuous delivery).",
             "in_response_to": "What are some common SDLC models?",
-            "persona": "user 2",
+            "persona": "assistant",
             "conversation": "se_process",
             "tags": [
                 "explanation"
@@ -57,7 +111,25 @@
         {
             "text": "What is Object-Oriented Programming (OOP)?",
             "in_response_to": null,
-            "persona": "user 1",
+            "persona": "user",
+            "conversation": "se_paradigms",
+            "tags": [
+                "question"
+            ]
+        },
+        {
+            "text": "Define OOP.",
+            "in_response_to": null,
+            "persona": "user",
+            "conversation": "se_paradigms",
+            "tags": [
+                "question"
+            ]
+        },
+        {
+            "text": "Explain Object-Oriented Programming.",
+            "in_response_to": null,
+            "persona": "user",
             "conversation": "se_paradigms",
             "tags": [
                 "question"
@@ -66,7 +138,7 @@
         {
             "text": "Object-Oriented Programming is a programming paradigm based on the concept of 'objects', which can contain data (attributes) and code (methods). Its main principles are Encapsulation, Abstraction, Inheritance, and Polymorphism.",
             "in_response_to": "What is Object-Oriented Programming (OOP)?",
-            "persona": "user 2",
+            "persona": "assistant",
             "conversation": "se_paradigms",
             "tags": [
                 "definition"
@@ -74,8 +146,26 @@
         },
         {
             "text": "Can you explain the four main OOP principles?",
-            "in_response_to": "What is Object-Oriented Programming (OOP)?",
-            "persona": "user 1",
+            "in_response_to": null,
+            "persona": "user",
+            "conversation": "se_paradigms",
+            "tags": [
+                "question"
+            ]
+        },
+        {
+            "text": "What are the four pillars of OOP?",
+            "in_response_to": null,
+            "persona": "user",
+            "conversation": "se_paradigms",
+            "tags": [
+                "question"
+            ]
+        },
+        {
+            "text": "Explain encapsulation, abstraction, inheritance, and polymorphism.",
+            "in_response_to": null,
+            "persona": "user",
             "conversation": "se_paradigms",
             "tags": [
                 "question"
@@ -84,7 +174,7 @@
         {
             "text": "Certainly. Encapsulation bundles data and methods into a single unit and restricts direct access. Abstraction hides complex implementation details. Inheritance allows a new class to adopt properties of an existing class. Polymorphism lets objects of different types be treated as objects of a common super type.",
             "in_response_to": "Can you explain the four main OOP principles?",
-            "persona": "user 2",
+            "persona": "assistant",
             "conversation": "se_paradigms",
             "tags": [
                 "explanation"
@@ -93,7 +183,25 @@
         {
             "text": "What is version control and why is it important?",
             "in_response_to": null,
-            "persona": "user 1",
+            "persona": "user",
+            "conversation": "se_tools",
+            "tags": [
+                "question"
+            ]
+        },
+        {
+            "text": "Explain version control.",
+            "in_response_to": null,
+            "persona": "user",
+            "conversation": "se_tools",
+            "tags": [
+                "question"
+            ]
+        },
+        {
+            "text": "Why do we need version control?",
+            "in_response_to": null,
+            "persona": "user",
             "conversation": "se_tools",
             "tags": [
                 "question"
@@ -102,7 +210,7 @@
         {
             "text": "Version control is a system that records changes to files over time so you can recall specific versions later. It's crucial for tracking changes, coordinating work among multiple developers, reverting to previous states, and maintaining a history of the project's evolution. Git is the most widely used system today.",
             "in_response_to": "What is version control and why is it important?",
-            "persona": "user 2",
+            "persona": "assistant",
             "conversation": "se_tools",
             "tags": [
                 "definition"
@@ -111,7 +219,25 @@
         {
             "text": "What is the difference between functional and non-functional requirements?",
             "in_response_to": null,
-            "persona": "user 1",
+            "persona": "user",
+            "conversation": "se_requirements",
+            "tags": [
+                "comparison"
+            ]
+        },
+        {
+            "text": "Compare functional and non-functional requirements.",
+            "in_response_to": null,
+            "persona": "user",
+            "conversation": "se_requirements",
+            "tags": [
+                "comparison"
+            ]
+        },
+        {
+            "text": "How are functional requirements different from non-functional ones?",
+            "in_response_to": null,
+            "persona": "user",
             "conversation": "se_requirements",
             "tags": [
                 "comparison"
@@ -120,7 +246,7 @@
         {
             "text": "Functional requirements define what the software should do—its specific features and functions. Non-functional requirements describe how the software should perform, including qualities like performance, scalability, security, usability, and reliability.",
             "in_response_to": "What is the difference between functional and non-functional requirements?",
-            "persona": "user 2",
+            "persona": "assistant",
             "conversation": "se_requirements",
             "tags": [
                 "comparison"
@@ -129,7 +255,25 @@
         {
             "text": "What is Technical Debt?",
             "in_response_to": null,
-            "persona": "user 1",
+            "persona": "user",
+            "conversation": "se_maintenance",
+            "tags": [
+                "question"
+            ]
+        },
+        {
+            "text": "Define Technical Debt.",
+            "in_response_to": null,
+            "persona": "user",
+            "conversation": "se_maintenance",
+            "tags": [
+                "question"
+            ]
+        },
+        {
+            "text": "Explain what Technical Debt means.",
+            "in_response_to": null,
+            "persona": "user",
             "conversation": "se_maintenance",
             "tags": [
                 "question"
@@ -138,7 +282,7 @@
         {
             "text": "Technical Debt is a concept in software development that reflects the implied cost of additional rework caused by choosing an easy, limited, or quick solution now instead of using a better approach that would take longer. It accumulates 'interest' over time, making future changes more difficult and costly.",
             "in_response_to": "What is Technical Debt?",
-            "persona": "user 2",
+            "persona": "assistant",
             "conversation": "se_maintenance",
             "tags": [
                 "definition"
@@ -147,7 +291,25 @@
         {
             "text": "What is CI/CD?",
             "in_response_to": null,
-            "persona": "user 1",
+            "persona": "user",
+            "conversation": "se_devops",
+            "tags": [
+                "question"
+            ]
+        },
+        {
+            "text": "Define CI/CD.",
+            "in_response_to": null,
+            "persona": "user",
+            "conversation": "se_devops",
+            "tags": [
+                "question"
+            ]
+        },
+        {
+            "text": "Explain Continuous Integration and Continuous Delivery.",
+            "in_response_to": null,
+            "persona": "user",
             "conversation": "se_devops",
             "tags": [
                 "question"
@@ -156,7 +318,7 @@
         {
             "text": "CI/CD stands for Continuous Integration and Continuous Delivery/Deployment. Continuous Integration involves developers merging code changes frequently, with automated builds and tests. Continuous Delivery automates the release of validated code to a repository, and Continuous Deployment automates deploying every change that passes tests to production.",
             "in_response_to": "What is CI/CD?",
-            "persona": "user 2",
+            "persona": "assistant",
             "conversation": "se_devops",
             "tags": [
                 "definition"
@@ -165,7 +327,25 @@
         {
             "text": "What is the purpose of unit testing?",
             "in_response_to": null,
-            "persona": "user 1",
+            "persona": "user",
+            "conversation": "se_testing",
+            "tags": [
+                "question"
+            ]
+        },
+        {
+            "text": "Why is unit testing important?",
+            "in_response_to": null,
+            "persona": "user",
+            "conversation": "se_testing",
+            "tags": [
+                "question"
+            ]
+        },
+        {
+            "text": "Explain the purpose of unit tests.",
+            "in_response_to": null,
+            "persona": "user",
             "conversation": "se_testing",
             "tags": [
                 "question"
@@ -174,7 +354,7 @@
         {
             "text": "The purpose of unit testing is to validate that individual units or components of the software (like a single function or method) work as expected in isolation. It's the first level of testing and helps catch bugs early in the development cycle, ensuring code quality and facilitating refactoring.",
             "in_response_to": "What is the purpose of unit testing?",
-            "persona": "user 2",
+            "persona": "assistant",
             "conversation": "se_testing",
             "tags": [
                 "explanation"

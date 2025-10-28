@@ -3,7 +3,6 @@
         {
             "text": "What is Artificial Intelligence?",
             "in_response_to": null,
-            "persona": "user",
             "conversation": "ai_intro",
             "tags": [
                 "definition"
@@ -12,7 +11,6 @@
         {
             "text": "Can you define AI?",
             "in_response_to": null,
-            "persona": "user",
             "conversation": "ai_intro",
             "tags": [
                 "definition"
@@ -21,7 +19,6 @@
         {
             "text": "Explain Artificial Intelligence.",
             "in_response_to": null,
-            "persona": "user",
             "conversation": "ai_intro",
             "tags": [
                 "definition"
@@ -30,7 +27,6 @@
         {
             "text": "Artificial Intelligence is a broad field of computer science focused on creating systems capable of performing tasks that typically require human intelligence. These tasks include learning, reasoning, problem-solving, perception, and understanding natural language.",
             "in_response_to": "What is Artificial Intelligence?",
-            "persona": "assistant",
             "conversation": "ai_intro",
             "tags": [
                 "definition"
@@ -39,7 +35,6 @@
         {
             "text": "Artificial Intelligence or AI is a broad field of computer science focused on creating systems capable of performing tasks that typically require human intelligence. These tasks include learning, reasoning, problem-solving, perception, and understanding natural language.",
             "in_response_to": "What is AI?",
-            "persona": "assistant",
             "conversation": "ai_intro",
             "tags": [
                 "definition"
@@ -48,7 +43,6 @@
         {
             "text": "What's the difference between AI, Machine Learning, and Deep Learning?",
             "in_response_to": null,
-            "persona": "user",
             "conversation": "ai_intro",
             "tags": [
                 "comparison"
@@ -57,7 +51,6 @@
         {
             "text": "How are AI, ML, and Deep Learning related?",
             "in_response_to": null,
-            "persona": "user",
             "conversation": "ai_intro",
             "tags": [
                 "comparison"
@@ -66,7 +59,6 @@
         {
             "text": "Compare AI, Machine Learning, and Deep Learning.",
             "in_response_to": null,
-            "persona": "user",
             "conversation": "ai_intro",
             "tags": [
                 "comparison"
@@ -75,7 +67,6 @@
         {
             "text": "Think of them as nested subsets. AI is the broadest concept - creating intelligent machines. Machine Learning is a subset of AI that uses algorithms to learn from data. Deep Learning is a further subset of ML that uses multi-layered neural networks to automatically learn representations from data.",
             "in_response_to": "What's the difference between AI, Machine Learning, and Deep Learning?",
-            "persona": "assistant",
             "conversation": "ai_intro",
             "tags": [
                 "comparison"
@@ -84,7 +75,6 @@
         {
             "text": "What are the main types of AI?",
             "in_response_to": null,
-            "persona": "user",
             "conversation": "ai_types",
             "tags": [
                 "question"
@@ -93,7 +83,6 @@
         {
             "text": "Can you list the categories of AI?",
             "in_response_to": null,
-            "persona": "user",
             "conversation": "ai_types",
             "tags": [
                 "question"
@@ -102,7 +91,6 @@
         {
             "text": "How is AI classified?",
             "in_response_to": null,
-            "persona": "user",
             "conversation": "ai_types",
             "tags": [
                 "question"
@@ -111,7 +99,6 @@
         {
             "text": "AI is commonly categorized into three types: Narrow AI (designed for specific tasks like chess playing), General AI (hypothetical AI with human-like cognitive abilities across domains), and Superintelligent AI (theoretical AI surpassing human intelligence in all aspects).",
             "in_response_to": "What are the main types of AI?",
-            "persona": "assistant",
             "conversation": "ai_types",
             "tags": [
                 "explanation"
@@ -120,7 +107,6 @@
         {
             "text": "What is Natural Language Processing?",
             "in_response_to": null,
-            "persona": "user",
             "conversation": "ai_nlp",
             "tags": [
                 "question"
@@ -129,7 +115,6 @@
         {
             "text": "Define NLP.",
             "in_response_to": null,
-            "persona": "user",
             "conversation": "ai_nlp",
             "tags": [
                 "question"
@@ -138,7 +123,6 @@
         {
             "text": "Explain Natural Language Processing.",
             "in_response_to": null,
-            "persona": "user",
             "conversation": "ai_nlp",
             "tags": [
                 "question"
@@ -147,7 +131,6 @@
         {
             "text": "Natural Language Processing is a branch of AI that focuses on enabling computers to understand, interpret, and generate human language. It powers applications like chatbots, translation services, sentiment analysis, and voice assistants.",
             "in_response_to": "What is Natural Language Processing?",
-            "persona": "assistant",
             "conversation": "ai_nlp",
             "tags": [
                 "definition"
@@ -156,7 +139,6 @@
         {
             "text": "What is Computer Vision?",
             "in_response_to": null,
-            "persona": "user",
             "conversation": "ai_vision",
             "tags": [
                 "question"
@@ -165,7 +147,6 @@
         {
             "text": "Can you explain Computer Vision?",
             "in_response_to": null,
-            "persona": "user",
             "conversation": "ai_vision",
             "tags": [
                 "question"
@@ -174,7 +155,6 @@
         {
             "text": "Define Computer Vision.",
             "in_response_to": null,
-            "persona": "user",
             "conversation": "ai_vision",
             "tags": [
                 "question"
@@ -183,7 +163,6 @@
         {
             "text": "Computer Vision is an AI field that enables machines to interpret and understand visual information from the world. It involves tasks like image classification, object detection, facial recognition, and scene reconstruction using digital images and deep learning models.",
             "in_response_to": "What is Computer Vision?",
-            "persona": "assistant",
             "conversation": "ai_vision",
             "tags": [
                 "definition"
@@ -192,7 +171,6 @@
         {
             "text": "What are some real-world applications of AI?",
             "in_response_to": null,
-            "persona": "user",
             "conversation": "ai_applications",
             "tags": [
                 "question"
@@ -201,7 +179,6 @@
         {
             "text": "Where is AI used in real life?",
             "in_response_to": null,
-            "persona": "user",
             "conversation": "ai_applications",
             "tags": [
                 "question"
@@ -210,7 +187,6 @@
         {
             "text": "Give me examples of AI applications.",
             "in_response_to": null,
-            "persona": "user",
             "conversation": "ai_applications",
             "tags": [
                 "question"
@@ -219,7 +195,6 @@
         {
             "text": "AI applications are everywhere: healthcare (diagnostic systems, drug discovery), finance (fraud detection, algorithmic trading), transportation (self-driving cars), retail (recommendation systems), manufacturing (predictive maintenance), and entertainment (content personalization).",
             "in_response_to": "What are some real-world applications of AI?",
-            "persona": "assistant",
             "conversation": "ai_applications",
             "tags": [
                 "example"
@@ -228,7 +203,6 @@
         {
             "text": "What is the Turing Test?",
             "in_response_to": null,
-            "persona": "user",
             "conversation": "ai_evaluation",
             "tags": [
                 "question"
@@ -237,7 +211,6 @@
         {
             "text": "Explain the Turing Test.",
             "in_response_to": null,
-            "persona": "user",
             "conversation": "ai_evaluation",
             "tags": [
                 "question"
@@ -246,7 +219,6 @@
         {
             "text": "Can you define the Turing Test?",
             "in_response_to": null,
-            "persona": "user",
             "conversation": "ai_evaluation",
             "tags": [
                 "question"
@@ -255,7 +227,6 @@
         {
             "text": "The Turing Test, proposed by Alan Turing in 1950, is a test of a machine's ability to exhibit intelligent behavior equivalent to, or indistinguishable from, that of a human. If a human evaluator cannot reliably tell the machine from a human, the machine is said to have passed the test.",
             "in_response_to": "What is the Turing Test?",
-            "persona": "assistant",
             "conversation": "ai_evaluation",
             "tags": [
                 "definition"
@@ -264,7 +235,6 @@
         {
             "text": "What are the ethical concerns surrounding AI?",
             "in_response_to": null,
-            "persona": "user",
             "conversation": "ai_ethics",
             "tags": [
                 "question"
@@ -273,7 +243,6 @@
         {
             "text": "What are the ethical issues with AI?",
             "in_response_to": null,
-            "persona": "user",
             "conversation": "ai_ethics",
             "tags": [
                 "question"
@@ -282,7 +251,6 @@
         {
             "text": "Tell me about AI ethics.",
             "in_response_to": null,
-            "persona": "user",
             "conversation": "ai_ethics",
             "tags": [
                 "question"
@@ -291,7 +259,6 @@
         {
             "text": "Key ethical concerns include bias and fairness (algorithmic discrimination), privacy issues, job displacement due to automation, accountability for AI decisions, security risks (AI-powered cyber attacks), and the long-term existential risks of superintelligent systems.",
             "in_response_to": "What are the ethical concerns surrounding AI?",
-            "persona": "assistant",
             "conversation": "ai_ethics",
             "tags": [
                 "explanation"
@@ -300,7 +267,6 @@
         {
             "text": "What is an Expert System?",
             "in_response_to": null,
-            "persona": "user",
             "conversation": "ai_systems",
             "tags": [
                 "question"
@@ -309,7 +275,6 @@
         {
             "text": "Define an Expert System.",
             "in_response_to": null,
-            "persona": "user",
             "conversation": "ai_systems",
             "tags": [
                 "question"
@@ -318,7 +283,6 @@
         {
             "text": "Explain what an Expert System is.",
             "in_response_to": null,
-            "persona": "user",
             "conversation": "ai_systems",
             "tags": [
                 "question"
@@ -327,7 +291,6 @@
         {
             "text": "An Expert System is an early form of AI that emulates the decision-making ability of a human expert. It consists of a knowledge base (facts and rules) and an inference engine that reasons about the knowledge base to provide answers to problems in a specific domain.",
             "in_response_to": "What is an Expert System?",
-            "persona": "assistant",
             "conversation": "ai_systems",
             "tags": [
                 "definition"
@@ -336,7 +299,6 @@
         {
             "text": "What is the difference between symbolic AI and connectionist AI?",
             "in_response_to": null,
-            "persona": "user",
             "conversation": "ai_approaches",
             "tags": [
                 "comparison"
@@ -345,7 +307,6 @@
         {
             "text": "Compare symbolic AI and connectionist AI.",
             "in_response_to": null,
-            "persona": "user",
             "conversation": "ai_approaches",
             "tags": [
                 "comparison"
@@ -354,7 +315,6 @@
         {
             "text": "How does symbolic AI differ from connectionist AI?",
             "in_response_to": null,
-            "persona": "user",
             "conversation": "ai_approaches",
             "tags": [
                 "comparison"
@@ -363,7 +323,6 @@
         {
             "text": "Symbolic AI (or GOFAI - Good Old-Fashioned AI) uses explicit rules and logic for reasoning, like expert systems. Connectionist AI uses neural networks that learn patterns from data. Symbolic AI is interpretable but rigid, while connectionist AI is flexible but can be a 'black box.'",
             "in_response_to": "What is the difference between symbolic AI and connectionist AI?",
-            "persona": "assistant",
             "conversation": "ai_approaches",
             "tags": [
                 "comparison"

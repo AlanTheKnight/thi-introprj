@@ -3,7 +3,6 @@
         {
             "text": "What are Data Structures and Algorithms?",
             "in_response_to": null,
-            "persona": "user 1",
             "conversation": "dsa_intro",
             "tags": [
                 "definition"
@@ -12,7 +11,6 @@
         {
             "text": "Data Structures are specialized formats for organizing, processing, retrieving and storing data. Algorithms are step-by-step procedures or formulas for solving problems. Together, they form the fundamental building blocks of efficient software development.",
             "in_response_to": "What are Data Structures and Algorithms?",
-            "persona": "user 2",
             "conversation": "dsa_intro",
             "tags": [
                 "definition"
@@ -21,7 +19,6 @@
         {
             "text": "Why are Data Structures and Algorithms important?",
             "in_response_to": "What are Data Structures and Algorithms?",
-            "persona": "user 1",
             "conversation": "dsa_intro",
             "tags": [
                 "question"
@@ -30,7 +27,6 @@
         {
             "text": "They are crucial for writing efficient and scalable code. The right data structure can drastically reduce memory usage and execution time, while efficient algorithms solve problems faster. They're essential for handling large datasets, building complex systems, and are fundamental in technical interviews.",
             "in_response_to": "Why are Data Structures and Algorithms important?",
-            "persona": "user 2",
             "conversation": "dsa_intro",
             "tags": [
                 "explanation"
@@ -39,7 +35,6 @@
         {
             "text": "What are the main types of Data Structures?",
             "in_response_to": null,
-            "persona": "user 1",
             "conversation": "dsa_types",
             "tags": [
                 "question"
@@ -48,7 +43,6 @@
         {
             "text": "Data Structures are broadly classified into Linear (arrays, linked lists, stacks, queues), Hierarchical (trees, heaps), Graph-based (graphs, networks), and Hash-based structures (hash tables). Each has specific use cases and performance characteristics.",
             "in_response_to": "What are the main types of Data Structures?",
-            "persona": "user 2",
             "conversation": "dsa_types",
             "tags": [
                 "explanation"
@@ -57,7 +51,6 @@
         {
             "text": "What is an Array?",
             "in_response_to": null,
-            "persona": "user 1",
             "conversation": "array_basics",
             "tags": [
                 "definition"
@@ -66,7 +59,6 @@
         {
             "text": "An Array is a data structure that stores a fixed-size sequence of elements of the same type in contiguous memory locations. It allows fast random access to elements using an index, but its size cannot be changed once created.",
             "in_response_to": "What is an Array?",
-            "persona": "user 2",
             "conversation": "array_basics",
             "tags": [
                 "definition"
@@ -75,7 +67,6 @@
         {
             "text": "What is a Linked List?",
             "in_response_to": null,
-            "persona": "user 1",
             "conversation": "linkedlist_basics",
             "tags": [
                 "definition"
@@ -84,7 +75,6 @@
         {
             "text": "A Linked List is a linear data structure made up of nodes, where each node contains data and a reference (or pointer) to the next node in the sequence. Unlike arrays, linked lists have dynamic size and allow efficient insertions and deletions, but accessing elements requires sequential traversal from the head node.",
             "in_response_to": "What is a Linked List?",
-            "persona": "user 2",
             "conversation": "linkedlist_basics",
             "tags": [
                 "definition"
@@ -93,7 +83,6 @@
         {
             "text": "What is the difference between an Array and a Linked List?",
             "in_response_to": null,
-            "persona": "user 1",
             "conversation": "dsa_comparison",
             "tags": [
                 "comparison"
@@ -102,7 +91,6 @@
         {
             "text": "Arrays store elements in contiguous memory locations, allowing fast random access but fixed size. Linked Lists store elements in nodes with pointers to the next node, allowing dynamic size and efficient insertions/deletions, but slower access since you must traverse from the head.",
             "in_response_to": "What is the difference between an Array and a Linked List?",
-            "persona": "user 2",
             "conversation": "dsa_comparison",
             "tags": [
                 "comparison"
@@ -111,7 +99,6 @@
         {
             "text": "What is a Binary Search Tree (BST)?",
             "in_response_to": null,
-            "persona": "user 1",
             "conversation": "dsa_trees",
             "tags": [
                 "question"
@@ -120,7 +107,6 @@
         {
             "text": "A Binary Search Tree is a node-based tree structure where each node has at most two children. The key property is that for any node, all values in its left subtree are smaller, and all values in its right subtree are larger, enabling efficient searching, insertion, and deletion operations.",
             "in_response_to": "What is a Binary Search Tree (BST)?",
-            "persona": "user 2",
             "conversation": "dsa_trees",
             "tags": [
                 "definition"
@@ -129,7 +115,6 @@
         {
             "text": "What is Time Complexity?",
             "in_response_to": null,
-            "persona": "user 1",
             "conversation": "dsa_complexity",
             "tags": [
                 "question"
@@ -138,7 +123,6 @@
         {
             "text": "Time Complexity is a computational concept that describes the amount of time an algorithm takes to run as a function of the length of the input. It's typically expressed using Big O notation (like O(n), O(log n), O(n²)) to classify algorithms according to how their run time grows.",
             "in_response_to": "What is Time Complexity?",
-            "persona": "user 2",
             "conversation": "dsa_complexity",
             "tags": [
                 "definition"
@@ -147,7 +131,6 @@
         {
             "text": "What are some common algorithm design paradigms?",
             "in_response_to": null,
-            "persona": "user 1",
             "conversation": "dsa_paradigms",
             "tags": [
                 "question"
@@ -156,7 +139,6 @@
         {
             "text": "Common algorithm design paradigms include Divide and Conquer (breaking problems into smaller subproblems), Dynamic Programming (solving overlapping subproblems optimally), Greedy Algorithms (making locally optimal choices), and Backtracking (incrementally building solutions and abandoning those that fail).",
             "in_response_to": "What are some common algorithm design paradigms?",
-            "persona": "user 2",
             "conversation": "dsa_paradigms",
             "tags": [
                 "explanation"
@@ -165,7 +147,6 @@
         {
             "text": "What is the difference between BFS and DFS?",
             "in_response_to": null,
-            "persona": "user 1",
             "conversation": "dsa_graph_algorithms",
             "tags": [
                 "comparison"
@@ -174,7 +155,6 @@
         {
             "text": "Breadth-First Search (BFS) explores nodes level by level using a queue, making it ideal for finding shortest paths. Depth-First Search (DFS) explores as far as possible along each branch before backtracking, using a stack (or recursion), and is better for topology sorting or cycle detection.",
             "in_response_to": "What is the difference between BFS and DFS?",
-            "persona": "user 2",
             "conversation": "dsa_graph_algorithms",
             "tags": [
                 "comparison"
@@ -183,7 +163,6 @@
         {
             "text": "What is a Hash Table and how does it work?",
             "in_response_to": null,
-            "persona": "user 1",
             "conversation": "dsa_hashing",
             "tags": [
                 "question"
@@ -192,7 +171,6 @@
         {
             "text": "A Hash Table is a data structure that implements an associative array, mapping keys to values. It uses a hash function to compute an index into an array of buckets from which the desired value can be found. This allows for average O(1) time complexity for insertions, deletions, and lookups.",
             "in_response_to": "What is a Hash Table and how does it work?",
-            "persona": "user 2",
             "conversation": "dsa_hashing",
             "tags": [
                 "definition"
@@ -201,7 +179,6 @@
         {
             "text": "What is Dynamic Programming?",
             "in_response_to": null,
-            "persona": "user 1",
             "conversation": "dsa_dp",
             "tags": [
                 "question"
@@ -210,7 +187,6 @@
         {
             "text": "Dynamic Programming is a method for solving complex problems by breaking them down into simpler overlapping subproblems. It solves each subproblem only once and stores the result (memoization or tabulation) to avoid redundant computations, significantly improving efficiency for problems like the Fibonacci sequence or knapsack problem.",
             "in_response_to": "What is Dynamic Programming?",
-            "persona": "user 2",
             "conversation": "dsa_dp",
             "tags": [
                 "definition"

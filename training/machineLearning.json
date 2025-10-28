@@ -3,7 +3,6 @@
         {
             "text": "What is Machine Learning?",
             "in_response_to": null,
-            "persona": "user",
             "conversation": "ml_intro",
             "tags": [
                 "definition"
@@ -12,7 +11,6 @@
         {
             "text": "Define Machine Learning.",
             "in_response_to": null,
-            "persona": "user",
             "conversation": "ml_intro",
             "tags": [
                 "definition"
@@ -21,7 +19,6 @@
         {
             "text": "Can you explain Machine Learning?",
             "in_response_to": null,
-            "persona": "user",
             "conversation": "ml_intro",
             "tags": [
                 "definition"
@@ -30,7 +27,6 @@
         {
             "text": "Machine Learning is a subset of Artificial Intelligence that allows systems to learn from data and improve their performance without being explicitly programmed.",
             "in_response_to": "What is Machine Learning?",
-            "persona": "assistant",
             "conversation": "ml_intro",
             "tags": [
                 "definition"
@@ -39,7 +35,6 @@
         {
             "text": "What are the main types of Machine Learning?",
             "in_response_to": null,
-            "persona": "user",
             "conversation": "ml_types",
             "tags": [
                 "question"
@@ -48,7 +43,6 @@
         {
             "text": "What categories does Machine Learning have?",
             "in_response_to": null,
-            "persona": "user",
             "conversation": "ml_types",
             "tags": [
                 "question"
@@ -57,7 +51,6 @@
         {
             "text": "Tell me about the different types of ML.",
             "in_response_to": null,
-            "persona": "user",
             "conversation": "ml_types",
             "tags": [
                 "question"
@@ -66,7 +59,6 @@
         {
             "text": "The main types of Machine Learning are supervised learning, unsupervised learning, and reinforcement learning.",
             "in_response_to": "What are the main types of Machine Learning?",
-            "persona": "assistant",
             "conversation": "ml_types",
             "tags": [
                 "explanation"
@@ -75,7 +67,6 @@
         {
             "text": "What is supervised learning?",
             "in_response_to": null,
-            "persona": "user",
             "conversation": "supervised_learning",
             "tags": [
                 "question"
@@ -84,7 +75,6 @@
         {
             "text": "Define supervised learning.",
             "in_response_to": null,
-            "persona": "user",
             "conversation": "supervised_learning",
             "tags": [
                 "question"
@@ -93,7 +83,6 @@
         {
             "text": "Can you explain supervised learning?",
             "in_response_to": null,
-            "persona": "user",
             "conversation": "supervised_learning",
             "tags": [
                 "question"
@@ -102,7 +91,6 @@
         {
             "text": "Supervised learning uses labeled data to train models. The algorithm learns by mapping inputs to the correct output using example data.",
             "in_response_to": "What is supervised learning?",
-            "persona": "assistant",
             "conversation": "supervised_learning",
             "tags": [
                 "definition"
@@ -111,7 +99,6 @@
         {
             "text": "Can you give examples of supervised learning algorithms?",
             "in_response_to": null,
-            "persona": "user",
             "conversation": "supervised_learning",
             "tags": [
                 "example"
@@ -120,7 +107,6 @@
         {
             "text": "What are some supervised learning algorithms?",
             "in_response_to": null,
-            "persona": "user",
             "conversation": "supervised_learning",
             "tags": [
                 "example"
@@ -129,7 +115,6 @@
         {
             "text": "List common supervised learning algorithms.",
             "in_response_to": null,
-            "persona": "user",
             "conversation": "supervised_learning",
             "tags": [
                 "example"
@@ -138,13 +123,14 @@
         {
             "text": "Common supervised learning algorithms include Linear Regression, Logistic Regression, Decision Trees, Random Forests, and Support Vector Machines.",
             "in_response_to": "Can you give examples of supervised learning algorithms?",
-            "persona": "assistant",
-            "conversation": "supervised_learning"
+            "conversation": "supervised_learning",
+            "tags": [
+                "example"
+            ]
         },
         {
             "text": "What is unsupervised learning?",
             "in_response_to": null,
-            "persona": "user",
             "conversation": "unsupervised_learning",
             "tags": [
                 "question"
@@ -153,7 +139,6 @@
         {
             "text": "Define unsupervised learning.",
             "in_response_to": null,
-            "persona": "user",
             "conversation": "unsupervised_learning",
             "tags": [
                 "question"
@@ -162,7 +147,6 @@
         {
             "text": "Explain unsupervised learning.",
             "in_response_to": null,
-            "persona": "user",
             "conversation": "unsupervised_learning",
             "tags": [
                 "question"
@@ -171,7 +155,6 @@
         {
             "text": "Unsupervised learning works with unlabeled data to find hidden patterns or structures. Clustering and dimensionality reduction are common examples.",
             "in_response_to": "What is unsupervised learning?",
-            "persona": "assistant",
             "conversation": "unsupervised_learning",
             "tags": [
                 "definition"
@@ -180,7 +163,6 @@
         {
             "text": "What is reinforcement learning?",
             "in_response_to": null,
-            "persona": "user",
             "conversation": "reinforcement_learning",
             "tags": [
                 "question"
@@ -189,7 +171,6 @@
         {
             "text": "Define reinforcement learning.",
             "in_response_to": null,
-            "persona": "user",
             "conversation": "reinforcement_learning",
             "tags": [
                 "question"
@@ -198,7 +179,6 @@
         {
             "text": "Can you explain reinforcement learning?",
             "in_response_to": null,
-            "persona": "user",
             "conversation": "reinforcement_learning",
             "tags": [
                 "question"
@@ -207,7 +187,6 @@
         {
             "text": "Reinforcement learning is a type of Machine Learning where an agent learns to make decisions by performing actions and receiving feedback in the form of rewards or penalties.",
             "in_response_to": "What is reinforcement learning?",
-            "persona": "assistant",
             "conversation": "reinforcement_learning",
             "tags": [
                 "definition"
@@ -216,7 +195,6 @@
         {
             "text": "What is overfitting in Machine Learning?",
             "in_response_to": null,
-            "persona": "user",
             "conversation": "overfitting",
             "tags": [
                 "question"
@@ -225,7 +203,6 @@
         {
             "text": "Define overfitting.",
             "in_response_to": null,
-            "persona": "user",
             "conversation": "overfitting",
             "tags": [
                 "question"
@@ -234,7 +211,6 @@
         {
             "text": "Can you explain what overfitting is?",
             "in_response_to": null,
-            "persona": "user",
             "conversation": "overfitting",
             "tags": [
                 "question"
@@ -243,7 +219,6 @@
         {
             "text": "Overfitting happens when a model learns the training data too well, capturing noise instead of general patterns. This results in poor performance on unseen data.",
             "in_response_to": "What is overfitting in Machine Learning?",
-            "persona": "assistant",
             "conversation": "overfitting",
             "tags": [
                 "explanation"
@@ -252,7 +227,6 @@
         {
             "text": "How can overfitting be reduced?",
             "in_response_to": null,
-            "persona": "user",
             "conversation": "overfitting",
             "tags": [
                 "question"
@@ -261,7 +235,6 @@
         {
             "text": "What are ways to prevent overfitting?",
             "in_response_to": null,
-            "persona": "user",
             "conversation": "overfitting",
             "tags": [
                 "question"
@@ -270,7 +243,6 @@
         {
             "text": "How do you avoid overfitting in ML models?",
             "in_response_to": null,
-            "persona": "user",
             "conversation": "overfitting",
             "tags": [
                 "question"
@@ -279,7 +251,6 @@
         {
             "text": "Overfitting can be reduced by using techniques like cross-validation, regularization, dropout (for neural networks), and using more training data.",
             "in_response_to": "How can overfitting be reduced?",
-            "persona": "assistant",
             "conversation": "overfitting",
             "tags": [
                 "solution"
@@ -288,7 +259,6 @@
         {
             "text": "What is a neural network?",
             "in_response_to": null,
-            "persona": "user",
             "conversation": "neural_networks",
             "tags": [
                 "question"
@@ -297,7 +267,6 @@
         {
             "text": "Define a neural network.",
             "in_response_to": null,
-            "persona": "user",
             "conversation": "neural_networks",
             "tags": [
                 "question"
@@ -306,7 +275,6 @@
         {
             "text": "Can you explain what a neural network is?",
             "in_response_to": null,
-            "persona": "user",
             "conversation": "neural_networks",
             "tags": [
                 "question"
@@ -315,7 +283,6 @@
         {
             "text": "A neural network is a computational model inspired by the human brain, composed of layers of interconnected nodes (neurons) that process data and learn representations.",
             "in_response_to": "What is a neural network?",
-            "persona": "assistant",
             "conversation": "neural_networks",
             "tags": [
                 "definition"
@@ -324,7 +291,6 @@
         {
             "text": "What is deep learning?",
             "in_response_to": null,
-            "persona": "user",
             "conversation": "neural_networks",
             "tags": [
                 "question"
@@ -333,7 +299,6 @@
         {
             "text": "Define deep learning.",
             "in_response_to": null,
-            "persona": "user",
             "conversation": "neural_networks",
             "tags": [
                 "question"
@@ -342,7 +307,6 @@
         {
             "text": "Can you explain deep learning?",
             "in_response_to": null,
-            "persona": "user",
             "conversation": "neural_networks",
             "tags": [
                 "question"
@@ -351,7 +315,6 @@
         {
             "text": "Deep learning is a subset of Machine Learning that uses multi-layered neural networks to automatically learn complex representations from large amounts of data.",
             "in_response_to": "What is deep learning?",
-            "persona": "assistant",
             "conversation": "neural_networks",
             "tags": [
                 "definition"

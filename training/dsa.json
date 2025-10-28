@@ -55,6 +55,42 @@
             ]
         },
         {
+            "text": "What is an Array?",
+            "in_response_to": null,
+            "persona": "user 1",
+            "conversation": "array_basics",
+            "tags": [
+                "definition"
+            ]
+        },
+        {
+            "text": "An Array is a data structure that stores a fixed-size sequence of elements of the same type in contiguous memory locations. It allows fast random access to elements using an index, but its size cannot be changed once created.",
+            "in_response_to": "What is an Array?",
+            "persona": "user 2",
+            "conversation": "array_basics",
+            "tags": [
+                "definition"
+            ]
+        },
+        {
+            "text": "What is a Linked List?",
+            "in_response_to": null,
+            "persona": "user 1",
+            "conversation": "linkedlist_basics",
+            "tags": [
+                "definition"
+            ]
+        },
+        {
+            "text": "A Linked List is a linear data structure made up of nodes, where each node contains data and a reference (or pointer) to the next node in the sequence. Unlike arrays, linked lists have dynamic size and allow efficient insertions and deletions, but accessing elements requires sequential traversal from the head node.",
+            "in_response_to": "What is a Linked List?",
+            "persona": "user 2",
+            "conversation": "linkedlist_basics",
+            "tags": [
+                "definition"
+            ]
+        },
+        {
             "text": "What is the difference between an Array and a Linked List?",
             "in_response_to": null,
             "persona": "user 1",

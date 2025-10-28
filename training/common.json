@@ -3,7 +3,27 @@
         {
             "text": "Hey! How’s it going?",
             "in_response_to": null,
-            "persona": "user 1",
+            "persona": "user",
+            "conversation": "greetings",
+            "tags": [
+                "greeting",
+                "casual"
+            ]
+        },
+        {
+            "text": "Hello! How are you?",
+            "in_response_to": null,
+            "persona": "user",
+            "conversation": "greetings",
+            "tags": [
+                "greeting",
+                "casual"
+            ]
+        },
+        {
+            "text": "Hi there, how are you doing?",
+            "in_response_to": null,
+            "persona": "user",
             "conversation": "greetings",
             "tags": [
                 "greeting",
@@ -13,7 +33,7 @@
         {
             "text": "I’m doing well, thanks! How about you?",
             "in_response_to": "Hey! How’s it going?",
-            "persona": "user 2",
+            "persona": "assistant",
             "conversation": "greetings",
             "tags": [
                 "response",
@@ -22,8 +42,17 @@
         },
         {
             "text": "Not too bad, just keeping busy. What about you?",
-            "in_response_to": "I’m doing well, thanks! How about you?",
-            "persona": "user 1",
+            "in_response_to": null,
+            "persona": "user",
+            "conversation": "greetings",
+            "tags": [
+                "small_talk"
+            ]
+        },
+        {
+            "text": "Can't complain! How have you been?",
+            "in_response_to": null,
+            "persona": "user",
             "conversation": "greetings",
             "tags": [
                 "small_talk"
@@ -32,7 +61,7 @@
         {
             "text": "Same here. Work’s been hectic lately!",
             "in_response_to": "Not too bad, just keeping busy. What about you?",
-            "persona": "user 2",
+            "persona": "assistant",
             "conversation": "greetings",
             "tags": [
                 "small_talk"
@@ -41,7 +70,27 @@
         {
             "text": "What do you usually do on weekends?",
             "in_response_to": null,
-            "persona": "user 1",
+            "persona": "user",
+            "conversation": "small_talk_weekend",
+            "tags": [
+                "small_talk",
+                "question"
+            ]
+        },
+        {
+            "text": "How do you spend your weekends?",
+            "in_response_to": null,
+            "persona": "user",
+            "conversation": "small_talk_weekend",
+            "tags": [
+                "small_talk",
+                "question"
+            ]
+        },
+        {
+            "text": "Any plans for the weekend?",
+            "in_response_to": null,
+            "persona": "user",
             "conversation": "small_talk_weekend",
             "tags": [
                 "small_talk",
@@ -51,7 +100,7 @@
         {
             "text": "I like to relax, maybe go hiking or watch a movie. How about you?",
             "in_response_to": "What do you usually do on weekends?",
-            "persona": "user 2",
+            "persona": "assistant",
             "conversation": "small_talk_weekend",
             "tags": [
                 "small_talk",
@@ -61,7 +110,27 @@
         {
             "text": "Do you mind if I ask you something?",
             "in_response_to": null,
-            "persona": "user 1",
+            "persona": "user",
+            "conversation": "politeness_request",
+            "tags": [
+                "politeness",
+                "request"
+            ]
+        },
+        {
+            "text": "Can I ask you a question?",
+            "in_response_to": null,
+            "persona": "user",
+            "conversation": "politeness_request",
+            "tags": [
+                "politeness",
+                "request"
+            ]
+        },
+        {
+            "text": "I have a question, if that's okay.",
+            "in_response_to": null,
+            "persona": "user",
             "conversation": "politeness_request",
             "tags": [
                 "politeness",
@@ -71,7 +140,7 @@
         {
             "text": "Not at all, go ahead!",
             "in_response_to": "Do you mind if I ask you something?",
-            "persona": "user 2",
+            "persona": "assistant",
             "conversation": "politeness_request",
             "tags": [
                 "polite_response"
@@ -80,7 +149,27 @@
         {
             "text": "That’s a good point.",
             "in_response_to": null,
-            "persona": "user 1",
+            "persona": "user",
+            "conversation": "agreement",
+            "tags": [
+                "agreement",
+                "acknowledgment"
+            ]
+        },
+        {
+            "text": "I agree with you.",
+            "in_response_to": null,
+            "persona": "user",
+            "conversation": "agreement",
+            "tags": [
+                "agreement",
+                "acknowledgment"
+            ]
+        },
+        {
+            "text": "You're absolutely right.",
+            "in_response_to": null,
+            "persona": "user",
             "conversation": "agreement",
             "tags": [
                 "agreement",
@@ -90,7 +179,7 @@
         {
             "text": "Yeah, I totally agree with you on that.",
             "in_response_to": "That’s a good point.",
-            "persona": "user 2",
+            "persona": "assistant",
             "conversation": "agreement",
             "tags": [
                 "agreement",
@@ -100,7 +189,27 @@
         {
             "text": "I see what you mean, but I’m not sure I agree.",
             "in_response_to": null,
-            "persona": "user 1",
+            "persona": "user",
+            "conversation": "disagreement",
+            "tags": [
+                "disagreement",
+                "polite"
+            ]
+        },
+        {
+            "text": "I see your point, but I see it differently.",
+            "in_response_to": null,
+            "persona": "user",
+            "conversation": "disagreement",
+            "tags": [
+                "disagreement",
+                "polite"
+            ]
+        },
+        {
+            "text": "I have to disagree with you on that.",
+            "in_response_to": null,
+            "persona": "user",
             "conversation": "disagreement",
             "tags": [
                 "disagreement",
@@ -110,7 +219,7 @@
         {
             "text": "That’s fair. Everyone sees things differently.",
             "in_response_to": "I see what you mean, but I’m not sure I agree.",
-            "persona": "user 2",
+            "persona": "assistant",
             "conversation": "disagreement",
             "tags": [
                 "acknowledgment",
@@ -120,7 +229,27 @@
         {
             "text": "Sorry, I didn’t catch that. Could you repeat it?",
             "in_response_to": null,
-            "persona": "user 1",
+            "persona": "user",
+            "conversation": "clarification",
+            "tags": [
+                "clarification",
+                "request"
+            ]
+        },
+        {
+            "text": "Could you say that again?",
+            "in_response_to": null,
+            "persona": "user",
+            "conversation": "clarification",
+            "tags": [
+                "clarification",
+                "request"
+            ]
+        },
+        {
+            "text": "I didn't understand that. Can you rephrase it?",
+            "in_response_to": null,
+            "persona": "user",
             "conversation": "clarification",
             "tags": [
                 "clarification",
@@ -130,7 +259,7 @@
         {
             "text": "Sure! I said that the meeting starts at 3 PM.",
             "in_response_to": "Sorry, I didn’t catch that. Could you repeat it?",
-            "persona": "user 2",
+            "persona": "assistant",
             "conversation": "clarification",
             "tags": [
                 "clarification",
@@ -140,7 +269,27 @@
         {
             "text": "Thanks for your help earlier!",
             "in_response_to": null,
-            "persona": "user 1",
+            "persona": "user",
+            "conversation": "gratitude",
+            "tags": [
+                "gratitude",
+                "politeness"
+            ]
+        },
+        {
+            "text": "Thank you for your assistance!",
+            "in_response_to": null,
+            "persona": "user",
+            "conversation": "gratitude",
+            "tags": [
+                "gratitude",
+                "politeness"
+            ]
+        },
+        {
+            "text": "I really appreciate your help.",
+            "in_response_to": null,
+            "persona": "user",
             "conversation": "gratitude",
             "tags": [
                 "gratitude",
@@ -150,7 +299,7 @@
         {
             "text": "You’re welcome! Glad I could help.",
             "in_response_to": "Thanks for your help earlier!",
-            "persona": "user 2",
+            "persona": "assistant",
             "conversation": "gratitude",
             "tags": [
                 "gratitude_response"
@@ -159,7 +308,27 @@
         {
             "text": "Take care! Talk to you later.",
             "in_response_to": null,
-            "persona": "user 1",
+            "persona": "user",
+            "conversation": "farewell",
+            "tags": [
+                "farewell",
+                "closing"
+            ]
+        },
+        {
+            "text": "Goodbye! Have a great day.",
+            "in_response_to": null,
+            "persona": "user",
+            "conversation": "farewell",
+            "tags": [
+                "farewell",
+                "closing"
+            ]
+        },
+        {
+            "text": "See you! It was nice talking to you.",
+            "in_response_to": null,
+            "persona": "user",
             "conversation": "farewell",
             "tags": [
                 "farewell",
@@ -169,7 +338,7 @@
         {
             "text": "See you later! Have a good one.",
             "in_response_to": "Take care! Talk to you later.",
-            "persona": "user 2",
+            "persona": "assistant",
             "conversation": "farewell",
             "tags": [
                 "farewell_response",

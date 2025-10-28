@@ -1,5 +1,4 @@
 from chatterbot import ChatBot
-from chatterbot.trainers import ListTrainer
 from chatterbot.trainers import (
     JsonFileTrainer
 )  # Potentially useful for larger datasets
@@ -7,7 +6,6 @@ import os
 import glob
 
 chatbot = None
-
 
 def init():
     global chatbot
@@ -21,6 +19,8 @@ def init():
                 'maximum_similarity_threshold': 0.90
             }
         ],
+        preprocessors=['chatterbot.preprocessors.clean_whitespace'],
+        response_selection_method='chatterbot.response_selection.get_most_frequent_response',
         read_only=False
     )
 
@@ -29,9 +29,7 @@ def init():
         chatbot,
         field_map={
             'text': 'text',
-            'in_response_to': 'in_response_to',
-            'conversation': 'conversation',
-            'persona': 'persona'
+            'in_response_to': 'in_response_to'
         }
     )
 
@@ -40,7 +38,7 @@ def init():
     json_files = glob.glob(os.path.join(training_path, "*.json"))
 
     if not json_files:
-        print("⚠️ No JSON training files found in '../training/'.")
+        print("⚠️ No JSON training files found in '/app/training/'.")
         return
 
     print(f"🧠 Found {len(json_files)} training files. Beginning training...\n")

@@ -1,6 +1,6 @@
 # Multi-stage build for Vue.js application
 # Stage 1: Build the application
-FROM node:22-alpine AS build
+FROM node:22 AS build
 
 # Install build dependencies for native modules
 RUN apk add --no-cache python3 make g++ libc6-compat
@@ -12,7 +12,7 @@ COPY package*.json ./
 
 # Clean install to avoid native binding issues
 RUN rm -rf node_modules package-lock.json
-RUN npm install --no-optional
+RUN npm install
 
 # Copy source code
 COPY . .

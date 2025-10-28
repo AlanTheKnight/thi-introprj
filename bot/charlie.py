@@ -1,9 +1,11 @@
 from chatterbot import ChatBot
 from chatterbot.trainers import JsonFileTrainer
-from chatterbot.comparisons import SpacySimilarity
+from chatterbot.comparisons import SpacySimilarity, LevenshteinDistance
 import os
 import glob
 import json
+
+from hybrid import HybridSimilarity
 
 chatbot = None
 
@@ -16,7 +18,8 @@ def init():
         logic_adapters=[
             {
                 "import_path": "chatterbot.logic.BestMatch",
-                # "statement_comparison_function": SpacySimilarity,
+                "statement_comparison_function": HybridSimilarity,
+                # "statement_comparison_function": LevenshteinDistance,
                 "default_response": "Sorry, I do not understand. Please rephrase your question.",
                 "maximum_similarity_threshold": 0.90,
             }

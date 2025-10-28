@@ -61,6 +61,7 @@ COPY --chown=appuser:appuser bot/ .
 COPY --chown=appuser:appuser training/ /app/training/
 
 # Download spaCy model (before switching to non-root user)
+RUN python -m spacy download en_core_web_md
 RUN python -m spacy download en_core_web_sm
 
 # Switch to non-root user

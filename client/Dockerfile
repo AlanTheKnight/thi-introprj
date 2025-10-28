@@ -2,6 +2,7 @@
 # Stage 1: Build the application
 FROM node:22-alpine AS build
 
+# Install build dependencies for native modules
 RUN apk add --no-cache python3 make g++ libc6-compat
 
 WORKDIR /app
@@ -9,8 +10,9 @@ WORKDIR /app
 # Copy package files
 COPY package*.json ./
 
-# Install dependencies using npm ci for clean install
-RUN npm install
+# Clean install to avoid native binding issues
+RUN rm -rf node_modules package-lock.json
+RUN npm install --no-optional
 
 # Copy source code
 COPY . .

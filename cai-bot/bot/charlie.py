@@ -1,53 +1,60 @@
 from chatterbot import ChatBot
 from chatterbot.trainers import ListTrainer
 from chatterbot.trainers import (
-    ChatterBotCorpusTrainer,
+    JsonFileTrainer
 )  # Potentially useful for larger datasets
 import os
+import glob
 
-# Initialize chatbot as None
 chatbot = None
 
 
 def init():
     global chatbot
 
-    # Create a writable database path
-    db_path = "/app/tmp/chatbot.db"
-
     chatbot = ChatBot(
-        "Charlie",
-        storage_adapter='chatterbot.storage.SQLStorageAdapter',
-        database_uri=f'sqlite:///{db_path}',
-        logic_adapters=["chatterbot.logic.BestMatch"]
+        "testBot",
+        logic_adapters=[
+            {
+                'import_path': 'chatterbot.logic.BestMatch',
+                'default_response': "I'm not sure about that yet.",
+                'maximum_similarity_threshold': 0.90
+            }
+        ],
+        read_only=False
     )
-    trainer = ListTrainer(chatbot)
 
-    # Train with initial greetings
-    trainer.train(["Hi!", "Hey there, i am Charlie!"])
-    trainer.train(["Ingolstadt", "City in Bavaria, Germany."])
+    # Configure trainer with field map
+    trainer = JsonFileTrainer(
+        chatbot,
+        field_map={
+            'text': 'text',
+            'in_response_to': 'in_response_to',
+            'conversation': 'conversation',
+            'persona': 'persona'
+        }
+    )
 
-    # --- New part: Training from a .txt file ---
-    training_path = "/app/training"  # Path to training directory
-    if os.path.exists(training_path):
-        files = os.listdir(training_path)
+    training_path = "/app/training"
 
-        for filename in files:
-            file_path = os.path.join(training_path, filename)
-            try:
-                with open(file_path, "r", encoding="utf-8") as f:
-                    answer = f.readline().strip()
-                    question = f.readline().strip()
-                    if answer and question:
-                        print("-->", answer, question)
-                        trainer.train([question, answer])
-            except (IOError, OSError) as e:
-                print(f"Error reading file {filename}: {e}")
+    json_files = glob.glob(os.path.join(training_path, "*.json"))
 
-    # Process the lines for training
-    # This assumes your .txt file has one conversation pair per two lines,
-    # or one statement per line to be used as a simple list.
-    # You might need to adapt this based on the format of your .txt file.
+    if not json_files:
+        print("⚠️ No JSON training files found in '../training/'.")
+        return
+
+    print(f"🧠 Found {len(json_files)} training files. Beginning training...\n")
+
+    for file_path in json_files:
+        try:
+            print(f"📘 Training with: {os.path.basename(file_path)}")
+            trainer.train(file_path)
+            print(f"✅ Finished training on: {os.path.basename(file_path)}\n")
+        except Exception as e:
+            print(f"❌ Error training on {file_path}: {e}\n")
+
+    print("🎉 All training files processed successfully!")
+
 
 
 def get_answer(question):
@@ -55,6 +62,7 @@ def get_answer(question):
     if chatbot is None:
         init()
     response = chatbot.get_response(question)
+    print("Confidence: ", response.confidence)
     if response.confidence < 0.5:
         return "Sorry, i cannot answer this question - please rephrase!"
     return response.text

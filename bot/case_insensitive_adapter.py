@@ -20,3 +20,9 @@ class CaseInsensitiveBestMatch(BestMatch):
         lower_other = Statement(text2)
 
         return super().compare_statements(lower_stmt, lower_other)
+
+
+# Custom preprocessor to convert text to lowercase
+def to_lowercase(statement):
+    statement.text = statement.text.lower()
+    return statement

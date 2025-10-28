@@ -2,8 +2,23 @@
   <nav class="flex flex-row w-full items-center gap-5">
     <!-- Navigation links -->
     <div class="flex flex-1 space-x-4 lg:space-x-6">
-      <RouterLink to="/" class="text-sm font-medium hover:text-primary">Chat</RouterLink>
-      <RouterLink to="/about" class="text-sm font-medium text-gray-400 hover:text-primary">
+      <RouterLink
+        to="/"
+        class="text-sm font-medium hover:text-primary"
+        :class="{
+          'text-primary': $route.path === '/',
+          'text-gray-400': $route.path !== '/',
+        }"
+        >Chat</RouterLink
+      >
+      <RouterLink
+        to="/about"
+        class="text-sm font-medium hover:text-primary"
+        :class="{
+          'text-primary': $route.path === '/about',
+          'text-gray-400': $route.path !== '/about',
+        }"
+      >
         About
       </RouterLink>
     </div>

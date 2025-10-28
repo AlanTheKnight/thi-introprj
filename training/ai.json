@@ -10,6 +10,15 @@
             ]
         },
         {
+            "text": "What is AI?",
+            "in_response_to": null,
+            "persona": "user 1",
+            "conversation": "ai_intro",
+            "tags": [
+                "definition"
+            ]
+        },
+        {
             "text": "Artificial Intelligence is a broad field of computer science focused on creating systems capable of performing tasks that typically require human intelligence. These tasks include learning, reasoning, problem-solving, perception, and understanding natural language.",
             "in_response_to": "What is Artificial Intelligence?",
             "persona": "user 2",

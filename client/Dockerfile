@@ -1,6 +1,8 @@
 # Multi-stage build for Vue.js application
 # Stage 1: Build the application
-FROM node:22 AS build
+FROM node:22-alpine AS build
+
+RUN apk add --no-cache python3 make g++ libc6-compat
 
 WORKDIR /app
 
@@ -8,7 +10,7 @@ WORKDIR /app
 COPY package*.json ./
 
 # Install dependencies
-RUN npm ci
+RUN npm install
 
 # Copy source code
 COPY . .

@@ -14,12 +14,14 @@ def init():
         "testBot",
         logic_adapters=[
             {
-                'import_path': 'chatterbot.logic.BestMatch',
+                'import_path': 'case_insensitive_adapter.CaseInsensitiveBestMatch',
                 'default_response': "I'm not sure about that yet.",
                 'maximum_similarity_threshold': 0.90
             }
         ],
-        preprocessors=['chatterbot.preprocessors.clean_whitespace'],
+        preprocessors=[
+            'chatterbot.preprocessors.clean_whitespace'
+        ],
         response_selection_method='chatterbot.response_selection.get_most_frequent_response',
         read_only=False
     )

@@ -2,9 +2,6 @@
 # Stage 1: Build the application
 FROM node:22 AS build
 
-# Install build dependencies for native modules
-RUN apk add --no-cache python3 make g++ libc6-compat
-
 WORKDIR /app
 
 # Copy package files

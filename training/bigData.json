@@ -136,6 +136,15 @@
             ]
         },
         {
+            "text": "What is the ETL process?",
+            "in_response_to": null,
+            "persona": "user 1",
+            "conversation": "bigdata_processing",
+            "tags": [
+                "question"
+            ]
+        },
+        {
             "text": "ETL stands for Extract, Transform, Load. It's a three-step data integration process: extracting data from source systems, transforming it into a clean and usable format, and loading it into a target data warehouse or database for analysis.",
             "in_response_to": "What is ETL?",
             "persona": "user 2",

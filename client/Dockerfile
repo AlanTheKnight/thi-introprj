@@ -1,6 +1,6 @@
 # Multi-stage build for Vue.js application
 # Stage 1: Build the application
-FROM oven/bun:1-alpine AS build
+FROM node:18-alpine AS build
 
 WORKDIR /app
 
@@ -8,13 +8,13 @@ WORKDIR /app
 COPY package*.json ./
 
 # Install dependencies
-RUN bun install --frozen-lockfile
+RUN npm ci
 
 # Copy source code
 COPY . .
 
 # Build the application (skip type checking for faster builds)
-RUN bun run build-only
+RUN npm run build-only
 
 # Stage 2: Serve with NGINX
 FROM nginx:1.29-alpine

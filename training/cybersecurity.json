@@ -3,7 +3,6 @@
         {
             "text": "What is Cyber Security?",
             "in_response_to": null,
-            "persona": "user",
             "conversation": "cyber_intro",
             "tags": [
                 "definition"
@@ -12,7 +11,6 @@
         {
             "text": "Define Cyber Security.",
             "in_response_to": null,
-            "persona": "user",
             "conversation": "cyber_intro",
             "tags": [
                 "definition"
@@ -21,7 +19,6 @@
         {
             "text": "Can you explain what Cyber Security is?",
             "in_response_to": null,
-            "persona": "user",
             "conversation": "cyber_intro",
             "tags": [
                 "definition"
@@ -30,7 +27,6 @@
         {
             "text": "Cyber Security is the practice of protecting systems, networks, programs, and data from digital attacks, damage, or unauthorized access. Its primary goal is to ensure confidentiality, integrity, and availability of information.",
             "in_response_to": "What is Cyber Security?",
-            "persona": "assistant",
             "conversation": "cyber_intro",
             "tags": [
                 "definition"
@@ -39,7 +35,6 @@
         {
             "text": "What are the main types of cyber threats?",
             "in_response_to": null,
-            "persona": "user",
             "conversation": "cyber_threats",
             "tags": [
                 "question"
@@ -48,7 +43,6 @@
         {
             "text": "What kinds of cyber threats are there?",
             "in_response_to": null,
-            "persona": "user",
             "conversation": "cyber_threats",
             "tags": [
                 "question"
@@ -57,7 +51,6 @@
         {
             "text": "Tell me about common cyber threats.",
             "in_response_to": null,
-            "persona": "user",
             "conversation": "cyber_threats",
             "tags": [
                 "question"
@@ -66,7 +59,6 @@
         {
             "text": "Common cyber threats include Malware (like viruses and ransomware), Phishing attacks, Denial-of-Service (DoS) attacks, Man-in-the-Middle (MitM) attacks, and SQL Injection.",
             "in_response_to": "What are the main types of cyber threats?",
-            "persona": "assistant",
             "conversation": "cyber_threats",
             "tags": [
                 "explanation"
@@ -75,7 +67,6 @@
         {
             "text": "What is a firewall?",
             "in_response_to": null,
-            "persona": "user",
             "conversation": "cyber_defenses",
             "tags": [
                 "question"
@@ -84,7 +75,6 @@
         {
             "text": "Can you explain what a firewall does?",
             "in_response_to": null,
-            "persona": "user",
             "conversation": "cyber_defenses",
             "tags": [
                 "question"
@@ -93,7 +83,6 @@
         {
             "text": "Define a firewall.",
             "in_response_to": null,
-            "persona": "user",
             "conversation": "cyber_defenses",
             "tags": [
                 "question"
@@ -102,7 +91,6 @@
         {
             "text": "A firewall is a network security device that monitors and controls incoming and outgoing network traffic based on predetermined security rules. It acts as a barrier between a trusted internal network and an untrusted external network, like the Internet.",
             "in_response_to": "What is a firewall?",
-            "persona": "assistant",
             "conversation": "cyber_defenses",
             "tags": [
                 "definition"
@@ -111,7 +99,6 @@
         {
             "text": "What's the difference between encryption and hashing?",
             "in_response_to": null,
-            "persona": "user",
             "conversation": "crypto_basics",
             "tags": [
                 "question"
@@ -120,7 +107,6 @@
         {
             "text": "Compare encryption and hashing.",
             "in_response_to": null,
-            "persona": "user",
             "conversation": "crypto_basics",
             "tags": [
                 "question"
@@ -129,7 +115,6 @@
         {
             "text": "How is encryption different from hashing?",
             "in_response_to": null,
-            "persona": "user",
             "conversation": "crypto_basics",
             "tags": [
                 "question"
@@ -138,7 +123,6 @@
         {
             "text": "Encryption is a two-way process that converts plaintext into ciphertext and back again using a key, used to protect data confidentiality. Hashing is a one-way process that generates a unique, fixed-size string (hash) from input data; it's primarily used to verify data integrity and for password storage.",
             "in_response_to": "What's the difference between encryption and hashing?",
-            "persona": "assistant",
             "conversation": "crypto_basics",
             "tags": [
                 "explanation"
@@ -147,7 +131,6 @@
         {
             "text": "What is Multi-Factor Authentication (MFA)?",
             "in_response_to": null,
-            "persona": "user",
             "conversation": "access_control",
             "tags": [
                 "question"
@@ -156,7 +139,6 @@
         {
             "text": "Define MFA.",
             "in_response_to": null,
-            "persona": "user",
             "conversation": "access_control",
             "tags": [
                 "question"
@@ -165,7 +147,6 @@
         {
             "text": "Can you explain Multi-Factor Authentication?",
             "in_response_to": null,
-            "persona": "user",
             "conversation": "access_control",
             "tags": [
                 "question"
@@ -174,7 +155,6 @@
         {
             "text": "Multi-Factor Authentication (MFA) is a security method that requires users to provide two or more verification factors to gain access to a resource. These factors typically fall into categories like something you know (password), something you have (a phone), or something you are (biometrics).",
             "in_response_to": "What is Multi-Factor Authentication (MFA)?",
-            "persona": "assistant",
             "conversation": "access_control",
             "tags": [
                 "definition"
@@ -183,7 +163,6 @@
         {
             "text": "Can you explain what a Zero Trust security model is?",
             "in_response_to": null,
-            "persona": "user",
             "conversation": "security_models",
             "tags": [
                 "question"
@@ -192,7 +171,6 @@
         {
             "text": "What is Zero Trust?",
             "in_response_to": null,
-            "persona": "user",
             "conversation": "security_models",
             "tags": [
                 "question"
@@ -201,7 +179,6 @@
         {
             "text": "Explain the Zero Trust security model.",
             "in_response_to": null,
-            "persona": "user",
             "conversation": "security_models",
             "tags": [
                 "question"
@@ -210,7 +187,6 @@
         {
             "text": "The Zero Trust model is a security concept centered on the belief that organizations should not automatically trust anything inside or outside its perimeters. Instead, it must verify anything and everything trying to connect to its systems before granting access. The core principle is 'never trust, always verify.'",
             "in_response_to": "Can you explain what a Zero Trust security model is?",
-            "persona": "assistant",
             "conversation": "security_models",
             "tags": [
                 "definition"
@@ -219,7 +195,6 @@
         {
             "text": "What is the goal of a penetration test?",
             "in_response_to": null,
-            "persona": "user",
             "conversation": "security_testing",
             "tags": [
                 "question"
@@ -228,7 +203,6 @@
         {
             "text": "Why do companies do penetration testing?",
             "in_response_to": null,
-            "persona": "user",
             "conversation": "security_testing",
             "tags": [
                 "question"
@@ -237,7 +211,6 @@
         {
             "text": "What's the purpose of a pen test?",
             "in_response_to": null,
-            "persona": "user",
             "conversation": "security_testing",
             "tags": [
                 "question"
@@ -246,7 +219,6 @@
         {
             "text": "The goal of a penetration test, or pen test, is to proactively identify and exploit vulnerabilities in a system, network, or application in a controlled, safe manner. This helps organizations understand their security weaknesses before malicious attackers can find and exploit them.",
             "in_response_to": "What is the goal of a penetration test?",
-            "persona": "assistant",
             "conversation": "security_testing",
             "tags": [
                 "explanation"
@@ -255,7 +227,6 @@
         {
             "text": "What is an Intrusion Detection System (IDS)?",
             "in_response_to": null,
-            "persona": "user",
             "conversation": "monitoring_tools",
             "tags": [
                 "question"
@@ -264,7 +235,6 @@
         {
             "text": "Define an IDS.",
             "in_response_to": null,
-            "persona": "user",
             "conversation": "monitoring_tools",
             "tags": [
                 "question"
@@ -273,7 +243,6 @@
         {
             "text": "Explain what an Intrusion Detection System does.",
             "in_response_to": null,
-            "persona": "user",
             "conversation": "monitoring_tools",
             "tags": [
                 "question"
@@ -282,7 +251,6 @@
         {
             "text": "An Intrusion Detection System (IDS) is a monitoring tool that analyzes network or system activities for malicious actions or policy violations. It primarily detects and alerts on potential threats but does not actively block them.",
             "in_response_to": "What is an Intrusion Detection System (IDS)?",
-            "persona": "assistant",
             "conversation": "monitoring_tools",
             "tags": [
                 "definition"
@@ -291,7 +259,6 @@
         {
             "text": "How is an Intrusion Prevention System (IPS) different?",
             "in_response_to": null,
-            "persona": "user",
             "conversation": "monitoring_tools",
             "tags": [
                 "question"
@@ -300,7 +267,6 @@
         {
             "text": "What's the difference between IDS and IPS?",
             "in_response_to": null,
-            "persona": "user",
             "conversation": "monitoring_tools",
             "tags": [
                 "question"
@@ -309,7 +275,6 @@
         {
             "text": "Compare IDS and IPS.",
             "in_response_to": null,
-            "persona": "user",
             "conversation": "monitoring_tools",
             "tags": [
                 "question"
@@ -318,7 +283,6 @@
         {
             "text": "An Intrusion Prevention System (IPS) is an evolution of an IDS. While an IDS is a passive monitoring system that only alerts, an IPS is placed in-line and can actively block or prevent detected threats in real-time, such as dropping malicious packets or blocking suspicious IP addresses.",
             "in_response_to": "How is an Intrusion Prevention System (IPS) different?",
-            "persona": "assistant",
             "conversation": "monitoring_tools",
             "tags": [
                 "comparison"
